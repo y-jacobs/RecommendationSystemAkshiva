@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "spry-utility-312419",
+  "private_key_id": "dfd5a624e06341936519fc4ea215debc6c265c93",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQClZhSmNwsfNR/e\nimtfaQSHCkTMr7Ubl+bOyW4cp3xJM/sU5/mVwPf5kPHR0goJgP+Iq70ZTYbknSnT\n/2mOX7/bpQDzljbDV6z/wy23xjbYf8Xq9z45zoS1tb+wO77MkwVaE+XYF1/TZURZ\nwZfLy1j214sWC4/ej6gwGB6sUMWUFh8/oUPRuiAtXsVjDpj/B6DyeSo2uayNMKiq\nnf+bBQTNL6KDLlRTXGq5XSdwKQMjHWZp/w377N9NbtrtComzrv+1vo1aIGBUDpwx\nofm2e1Rd/o+aVTFmD2AvD0wZQ2bK2YLjLwfH+Yjaxg1EwVKHhHEsY6vfUEYHN1Et\nf/NXPHUhAgMBAAECggEAA6xEXi9ty7Rl9f7TOQT1p99p6SUX3aY4LtBzHZ+YJV6i\nO0fmW2GT2iTSc2g1fwn4Zrk4WZN2wNz2+ctPvWy9t52as4YS9tAbpkl38ndERpcS\nCrxxQzatbJT13f6qJ0wmoc4sQAHvH7xNffwkLCdKpT7iqrdwkzrTw3dmJznDFPV2\ngVFJEfqesrhHSVfuS3p+qpwISDHxT+P2lIbH2w1GxjegnXqOuuHDOnRe21txxdWz\nt3AFciV4HmV7CkctgyK7SQj5pTEjvxD63UeKSRHxi4jz731acjdZL0WsYN1eg58n\nfOy1xrhrhNiCpN02k7513O2YHEWcD6dz/KVcgEJagQKBgQDgcLwe28jWOMzW7KOK\nDhrKDyexY1wn24M+aVskzFMHO8XWMYb1l39BlDRMcrUSrnn7Q2CkLMnxdLyPrFKL\nS/Cf5yj/jmyCroYG4WJYYIykQMbr+mf7zWmETjmh/kDhHTj+wutD0o7lIlR/l4Nt\nEzSvv6UvJDXpY4yBY3FilqkFgQKBgQC8qACWrJzAqz0pUb4ZVHJRsx/MX21qEvP8\nKFy/70N+RR2u8kc6xbGdwMA0PMvtuVatWTRFRMgEb2rRHSMLwdtV07du3L4bRonx\nNHNbPaDf17xf355qeHSJESaNt8dbgzGUJZhNHBB2oadG+YEq8DDBeM0O9pMZeCJV\n06jKWbV/oQKBgEHXkLiUzZRa0Wzzuv5TKPTCAWj+txhSQ2xZyA1Bi9IBbQZrPSZr\nLT/11Gng9NHoMYzOtVk0coHNN0wGx6hpvMuMKvDdvWORA2ydThaTLG87OaAcs8ig\n+CWCNVIanrnrsr66O/6HlLgPnC5aKoojKj+svy7XNqGjPKLwo2DCxg8BAoGBAK2O\n0ZvMiRkncEkHDqA29ET9SY+3au1fKl8cstdQwwLziu9brPQA0/qRTUHBfMri6z7n\nBhODx49tARQIfile2u4GrIatRafKKTViT43tEIdd7cs16oOA9ZTz1kgifqFN/NqS\nC59E5lB9P2soNxDNj80t2Viet42C2/OhmXMvPK6BAoGAYc4l2hXdJdBmhhvLOhoj\nw+mek0u3HTOKePHZxqbGzi41aUNFMpsVAwIHq7tdv7ECaEuDa0ydTuF/C+GpZPMg\ni6Nj82hgzZLS/ajxI4w7+jzxulpPwAfkx7AUHXpujJv8tUGUW/qUXk5/CqwM020y\nd0VWRB99vij0I0POTQ4ndm0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dossify-1@spry-utility-312419.iam.gserviceaccount.com",
+  "client_id": "101195311570640917175",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dossify-1%40spry-utility-312419.iam.gserviceaccount.com"
+}

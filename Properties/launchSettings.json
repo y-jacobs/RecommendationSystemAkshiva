@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ConsoleApp7": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "spry-utility-312419-dfd5a624e063.json"
+      }
+    }
+  }
+}
