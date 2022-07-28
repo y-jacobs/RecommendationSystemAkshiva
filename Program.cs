@@ -28,8 +28,6 @@ namespace RecommendationsSystem
                                           .Append(mlContext.Transforms.Text.FeaturizeText(outputColumnName: "mediaIdFeaturized", inputColumnName: nameof(RatingData.mediaId))
                                           .Append(mlContext.Transforms.Concatenate("Features", "userIdFeaturized", "mediaIdFeaturized")));
 
-            //IEstimator<ITransformer> estimator = mlContext.Transforms.Conversion.MapValueToKey(outputColumnName: "userIdEncoded", inputColumnName: "userId")
-            //        .Append(mlContext.Transforms.Conversion.MapValueToKey(outputColumnName: "mediaIdEncoded", inputColumnName: "mediaId"));
 
             var options = new FieldAwareFactorizationMachineTrainer.Options
             {
@@ -45,13 +43,6 @@ namespace RecommendationsSystem
 
             ITransformer model = trainerEstimator.Fit(trainingDataView);
 
-
-            //var predictionEngine = mlContext.Model.CreatePredictionEngine<RatingData, RatingPrediction>(model);
-            //RatingData testData = new RatingData() { userId = "6", mediaId = "10" };
-
-            //var movieRatingPrediction = predictionEngine.Predict(testData);
-            //Console.WriteLine($"UserId:{testData.userId} with movieId: {testData.mediaId} Score:{Sigmoid(movieRatingPrediction.Score)} label:{movieRatingPrediction.PredictedLabel}");
-            //Console.WriteLine();
 
             Console.WriteLine("=============== Saving the model ===============");
 
@@ -77,9 +68,6 @@ namespace RecommendationsSystem
 
         static void Main(String[] args)
         {
-            // Console.WriteLine("testttttt");
-            // TrainModel("C:/Users/dossifyapp/Desktop/project/RatingData.csv", "C:/Users/dossifyapp/Desktop/project/recommendation_model.zip");
-            //TrainModel("C:/Users/yahel/Desktop/RatingData.csv", "C:/Users/yahel/Desktop/recommendation_model.zip");
             TrainModel(args[0], args[1]);
         }   
     }
